@@ -3,26 +3,54 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Insert title here</title>
-	<link href="audicarpage.css">
+	<!-- css 기본 초기화 -->
+	<link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+	<link href="audicarpage.css" rel="stylesheet">
 </head>
 <body>
 	
-	<header>
-	<h1>자동차에 대해 알려줄게</h1>
-	<ul>
-		<li>포르쉐</li>
-		<li>아우디</li>
-		<li>기아</li>
-		<li>현대</li>
-	</ul>
-	
-	
+	<header id="headerbox">	<!--  헤더   -->
+	<h1 class="title">자동차에 대해 알려줄게</h1>	<!--  제목  -->
+	<p class="logo_name">
+	<a href="#">포르쉐</a><br><a href="#">아우디</a><br>
+	<a href="#">기아</a><a href="#">현대</a></p>
 	</header>
+	
+	
+	
 
-	<div class="container">
-	
-	
+	<div id="container">
+		<div id="audi">
+			<h1 class="car_Information"> 자동차 소개하기전 전기차 코멘트 </h1>
+			<h1 class="car_name"> Audi RS E-tron GT </h1>
+				<a href="#"><img alt="" src="img/아우디3.jpg"></a>
+				<p class="car_comment">순수함의 끝, 진화된 퍼포먼스
+				Audi RS E-tron GT 플랫하고 넓은 바닥과 긴 휠베이스가 특징인<br>
+				Audi RS E-tron GT는 스포티함과 편리함의 완벽한 조화를 추구합니다.<br>
+				전면에서 후면까지 이르는 Aerodynamics를 적용한<br> 
+				디자인은 힘과 성능을
+				더욱 돋보이게 합니다.<br>
+				Audi RS E-tron GT의 눈부신 외관만큼 빛나는 것은<br>
+				그 안에 담겨진 강렬한 성능입니다. 정지상태에서<br>
+				100km까지 도달하는 시간은 단 3.3초에 불과 합니다.<br></p>
+		</div>
+		
+		<div id="porsche">
+			<h1 class="car_name2"> Porsche Taycan </h1>
+			<a href="#"><img alt="" src="img/타이칸2.jpg"></a>
+			<p class="car_comment2">
+			포르쉐는 2019년 자사 최초의 순수 전기 스포츠카 타이칸을 출시하며<br>
+			 새로운 시대를 열었다. 4도어 스포츠 세단인 타이칸은 독특한 패키지와<br>
+			  전형적인 포르쉐 성능, 커넥티비티와 일상의 실용성을 모두 갖췄다. <br>
+			  고도화된 타이칸의 생산 방식과 제품 특징은 지속가능성과 디지털화 분야에서<br>
+			   새로운 기준을 정립했다.
+			</p>
+		
+		</div>
 	</div>
+	
+	<footer> <!-- 푸터 -->
+	</footer>
 	
 </body>
 </html>
