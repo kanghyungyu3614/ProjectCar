@@ -16,11 +16,33 @@
     height:100%;
 }
 
-/* 자동차에 대해 알려줄게,아래사진을 클릭해주세요. 글씨 */
-.containerTitle{
+/* 자동차에 대해 알려줄게 글씨 */
+#containerTitle{
     font-family: "YdestreetB";
-    font-size: 70px;
-    text-align: center;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+#TitleLeft{
+	float: left;
+}
+
+/* 로그인 | 회원가입 | Q&A페이지 */
+#TitleRight{
+	float: right;
+	padding-right:30px;
+}
+/* 로그인 | 회원가입 | Q&A페이지 링크 설정 */
+#TitleRight a:hover , #TitleRight a:link,  #TitleRight a:active, #TitleRight a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+/* 아래사진을 클릭해주세요. PictureClick */
+#PictureClick{
+    font-family: "YdestreetB";
+    font-size: 30px;
+    text-align:center;
 }
 /* 아우디 gif */
 #audiGif{
@@ -47,3 +69,38 @@
     width: 24%;
     height: 500px; 
 }
+/* footer  */
+footer{
+	width:100%;
+	height: 500px;
+	color:white;
+    background-color: #1c1b1b;
+}
+/* GitLink*/
+.gitLink{
+	font-family: 'YdestreetB';
+	font-size:30px;
+	color: white;
+}
+.gitLink:hover{
+	text-decoration: none;
+}
+.gitLink:link{
+	text-decoration: none;
+}
+
+.gitLink:active{
+	text-decoration: none;
+}
+
+.gitLink:visited{
+	text-decoration: none;
+}
+/* footerURL  */
+#footerURL{
+	text-align:center;
+	padding-top: 180px;
+}
+
+
+
