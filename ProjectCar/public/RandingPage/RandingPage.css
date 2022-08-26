@@ -1,0 +1,49 @@
+/* Y이드스트릿체 */
+@font-face {
+    font-family: 'YdestreetB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 전체 */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* 전체 div태그 : gif가 너무 커서 일단 5000px로 높이 설정 */
+#container{
+    height:100%;
+}
+
+/* 자동차에 대해 알려줄게,아래사진을 클릭해주세요. 글씨 */
+.containerTitle{
+    font-family: "YdestreetB";
+    font-size: 70px;
+    text-align: center;
+}
+/* 아우디 gif */
+#audiGif{
+    width: 100%;
+    height: 1100px;
+}
+/* porsche1_log */
+#porsche1_logo{
+    width: 23%;
+    height: 500px; 
+}
+/* Ferrari_logo */
+#Ferrari_logo{
+    width: 28%;
+    height: 500px; 
+}
+/* kia_logo */
+#kia_logo{
+    width: 24%;
+    height: 500px;
+}
+/* Ford_logo */
+#Ford_logo{
+    width: 24%;
+    height: 500px; 
+}
