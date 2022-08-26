@@ -8,26 +8,31 @@
    <th></th>
    <th>역할</th>
    <th>담당</th>
+   <th>브랜치</th>
 </tr>
  <tr>
-   <td>강현규</td>
+   <td><a href="https://github.com/kanghyungyu3614">강현규<a/></td>
    <td>팀장</td>
    <td>랜딩페이지,QnA페이지 작성</td>
+   <td>main,randing</td>
 </tr>
   <tr>
-   <td>이종훈</td>
+   <td><a href="https://github.com/ljh0407">이종훈<a/></td>
    <td>팀원</td>
    <td>포르쉐,아우디 전기차 페이지 작성</td>
+   <td>porsche</td>
 </tr>
   <tr>
-   <td>주혁</td>
+   <td><a href="https://github.com/Jooh94">주혁<a/></td>
    <td>팀원</td>
    <td>현대,기아 전기차 페이지 작성</td>
+   <td>jhjh94 </td>
 </tr>
   <tr>
-   <td>최윤미</td>
+   <td><a href="https://github.com/dive27">최윤미<a/></td>
    <td>팀원</td>
    <td>로그인 회원가입 페이지 작성</td>
+   <td>project_car_sub</td>
 </tr>
 </table>
  <br>
