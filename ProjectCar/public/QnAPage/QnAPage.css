@@ -21,7 +21,7 @@
 #containerTitle{
     font-family: "YdestreetB";
     font-size: 40px;
-    padding: 20px;
+    padding: 20px 180px ;
 
 }
 
@@ -97,11 +97,32 @@ tr td {
 /*게시판 안쪽 테두리 끝 */
 
 
+/*상담내용 추가하기 버튼을 눌렀을때 나오는 input박스 시작*/
+.QnAtextContentPassword{
+	font-family: "YdestreetB";	
+	font-size: 20px;
+    width: 10%;
+    height: 20%;
+    text-align: center;		 
+}
+/*상담내용 추가하기 버튼을 눌렀을때 나오는 input박스 끝*/
+
+/* CreateSolution */
+.CreateSolution{
+	font-family: "YdestreetB";	
+	font-size: 20px;
+    width: 10%;
+    height: 20%;
+    text-align: center;	
+}
+
+
+
 
 /* 테이블 테두리와 전체 크기 -----------게시판 테이블 끝*/
 
 /* 추가된 게시판의 글 의 ButtonAdd , ButtonDelete 버튼 크기 글꼴 조정 시작 */
-#ButtonAdd{
+.QnASolutionButton{
     width: 100px;
     height: 80px;
     font-family: "YdestreetB";
@@ -110,15 +131,6 @@ tr td {
     margin-left: 20px;
 }
 
-#ButtonDelete{
-    width: 100px;
-    height: 80px;
-    font-family: "YdestreetB";
-    font-size: 20px; 
-    clear:left;
-    float:rigth;
-    
-}
 
 
 
@@ -203,43 +215,6 @@ tr td {
     font-size: 20px;    
 }
 /*내용추가버튼 끝*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* footer  */
