@@ -1,1 +1,267 @@
 @charset "UTF-8";
+/* Y이드스트릿체 */
+@font-face {
+    font-family: 'YdestreetB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 전체 */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* 전체 div태그 :  100%로 높이 설정 */
+#container{
+	height: 100%;
+}
+
+/* 자동차에 대해 알려줄게 글씨 시작*/
+#containerTitle{
+    font-family: "YdestreetB";
+    font-size: 40px;
+    padding: 20px;
+
+}
+
+#TitleLeft{
+	float: left;
+	margin: 0 0 40px 10px;
+}
+/* 자동차에 대해 알려줄게 글씨 끝*/
+
+
+/* 로그인 | 회원가입 | Q&A페이지 */
+#TitleRight{
+	float: right;
+	padding-right:30px;
+	margin: 0 0 40px 0;
+}
+
+
+/* 로그인 | 회원가입 | Q&A페이지 링크 설정 */
+#TitleRight a:hover , #TitleRight a:link,  #TitleRight a:active, #TitleRight a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/*  QnAMainPage float설정 해제  */
+#QnAMainPage{
+	clear:both;
+}
+/* 테이블 테두리와 전체 크기 -----------게시판 테이블 시작 */
+#QnAMainTable{
+	margin: 0 auto;
+    width:80%;
+	border: solid 2px black;
+	border-collapse: collapse;
+	font-family: "YdestreetB";
+}
+.QnAMainTableRowtwo{
+    height:100px;
+    text-align:center;
+	border: solid 2px black;
+	border-collapse: collapse;
+	font-family: "YdestreetB";
+}
+/*번호 이름 제목 열들 가로길이 시작 */
+.QnAMainTableShort{
+	width:7%;
+}
+/*번호 이름 제목 열들 가로길이 끝 */
+
+/*내용, 상담내용 열들 가로길이 시작 */
+.QnAMainTableLong{ 
+	width: 40%;
+ } 
+/*내용, 상담내용 열들 가로길이 끝 */
+
+
+/* 게시판 안쪽 테두리 시작 */
+tr th {
+	border: solid 2px black;
+}
+tr td {
+	border: solid 2px black;
+}
+/*게시판 안쪽 테두리 끝 */
+
+
+
+/* 테이블 테두리와 전체 크기 -----------게시판 테이블 끝*/
+
+/* 추가된 게시판의 글 의 ButtonAdd , ButtonDelete 버튼 크기 글꼴 조정 시작 */
+#ButtonAdd{
+    width: 100px;
+    height: 80px;
+    font-family: "YdestreetB";
+    font-size: 20px;   
+    float: left;
+    margin-left: 20px;
+}
+
+#ButtonDelete{
+    width: 100px;
+    height: 80px;
+    font-family: "YdestreetB";
+    font-size: 20px; 
+    clear:left;
+    float:rigth;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* QnASubPage-----------댓글달기테이블 시작 */
+
+
+#QnASebTable{
+	clear: right;
+	margin: 1000px auto; /* 이거 나중에 제거하고 container 100%로 해주면 된다. */	
+    width:80%;
+	border: solid 2px black;
+	border-collapse: collapse;
+	font-family: "YdestreetB";
+}
+
+/* QnASubPage-----------댓글달기테이블 끝*/
+
+/*번호 열들 가로길이  시작*/
+.QnASebTableSebNumber{
+	width:100px;
+}
+
+/* 이름 과 제목과 비밀번호칸 작게 만들거임 시작*/
+.QnASebTable{
+	width:70px;
+}
+#QnASebTablePassword{
+	width:130px;	
+}
+/* 이름 과 제목과 비밀번호칸 작게 만들거임 끝*/
+
+
+/*번호 열들 가로길이  끝*/
+
+/*QnASebTableSebNumberId ----------------- 댓글달기 2번째행칸*/
+#QnASebTableSebNumberId{
+	height:100px;
+}
+
+
+
+
+
+/*  input박스들 textName, textTitle, textContent ,textContentPassword 시작 */
+/* textName  */
+#textName{
+	width:90%;
+	height:100px;
+}
+/* textTitle  */
+#textTitle{
+	width:90%;
+	height:100px;
+}
+/* textContent  */
+#textContent{
+	width:98%;
+	height:100px;	
+}
+/*  비밀번호칸 크기조정 시작*/
+#textContentPassword{
+	width:90%;
+	height:100px;
+}
+/*  비밀번호칸 크기조정 끝*/
+/*  input박스들 textName, textTitle, textContent ,textContentPassword 끝 */
+
+/*내용추가버튼 시작*/
+#AddContentButton{
+    width: 100px;
+    height: 80px;
+    font-family: "YdestreetB";
+    font-size: 20px;    
+}
+/*내용추가버튼 끝*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer  */
+footer{
+	margin-top: 1000px; /* 이거 나중에 제거하고 container 100%로 해주면 된다. */
+	width:100%;
+	height: 500px;
+	color:white;
+    background-color: #1c1b1b;
+}
+/* GitLink*/
+.gitLink{
+	font-family: 'YdestreetB';
+	font-size:30px;
+	color: white;
+}
+.gitLink:hover ,.gitLink:link , .gitLink:active ,.gitLink:visited{
+	text-decoration: none;
+}
+/* footerURL  */
+#footerURL{
+	text-align:center;
+	padding-top: 180px;
+}
+

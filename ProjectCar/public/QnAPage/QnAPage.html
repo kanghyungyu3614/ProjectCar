@@ -3,8 +3,68 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="QnAPage.css">
 </head>
 <body>
-  <div>혹시 이것때문인가요? 아닌가요?</div>
+    <div id="container">
+        <div id="containerTitle">
+          <div id="TitleLeft">전기차에 대해 알려줄게</div>
+          <div id="TitleRight">
+	          <a href="">로그인</a> | 
+	          <a href="">회원가입</a> | 
+	          <a href="">Q&amp;A페이지</a>
+          </div>
+        </div> 
+        
+        
+        <section id="QnAMainPage">
+           <table id="QnAMainTable">
+             <tr id="QnAMainTableRow">
+               <th class="QnAMainTableShort">번호</th><th class="QnAMainTableShort">이름</th><th class="QnAMainTableShort">제목</th><th class="QnAMainTableLong">내용</th><th class="QnAMainTableLong">상담내용</th>
+             </tr>
+           <!--tbody 태그 하위 컴포넌트에 값들이 생성되면 된다.  -->
+         </table>
+        
+        
+        
+        
+           <table id="QnASebTable">
+             <tr class="QnASebTableRow">
+               <th class="QnASebTableSebNumber">번호</th>
+               <th class="QnASebTable">이름</th>
+               <th class="QnASebTable">제목</th>
+               <th>내용</th>
+               <th  id="QnASebTablePassword">비밀번호<br>4자리<br>입력해주세요.</th>
+               <th>상담내용</th>
+             </tr>
+             <tr class="QnASebTableRow">
+               <th class="QnASebTableSebNumber" id="QnASebTableSebNumberId">0</th>
+               <th><input type="text" id="textName"></th>
+               <th><input type="text" id="textTitle"></th>
+               <th><input type="text" id="textContent"></th>
+               <th><input type="password" id="textContentPassword"></th>
+               <th>상담가능시간<br>09시~18시<br><button onclick="내용추가()" id="AddContentButton">내용추가</button></th>
+             </tr>
+             <!--tbody 태그 하위 컴포넌트에 값들이 생성되면 된다.  -->
+           </table>
+        
+        
+        </section>
+        
+        <!--footer태그 여긴 마무리 되었습니다. -->
+        <footer>
+         <div id="footerURL">
+           <a class="gitLink" href="https://github.com/kanghyungyu3614/ProjectCar">GitHub주소</a> |
+           <a class="gitLink" href="https://www.notion.so/5-CarProject-b5adf3decc74464490e26dbea19cd271">Notion주소</a>
+           <a class="gitLink" href="https://www.figma.com/file/VcdjQxBpzZXmVgronxbpsM/Untitled?node-id=0%3A1">Figma주소</a><br>
+           <a class="gitLink" href="https://github.com/kanghyungyu3614">강현규</a> | 
+           <a class="gitLink" href="https://github.com/ljh0407">이종훈</a> | 
+           <a class="gitLink" href="https://github.com/Jooh94">주혁</a> | 
+           <a class="gitLink" href="https://github.com/dive27">최윤미</a> 
+         </div>
+        
+        </footer>
+    </div>             
+   <script src="QnAPage.js"></script>
 </body>
 </html>
