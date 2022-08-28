@@ -21,13 +21,12 @@
 #containerTitle{
     font-family: "YdestreetB";
     font-size: 40px;
-    padding: 20px 180px ;
-
 }
 
 #TitleLeft{
 	float: left;
 	margin: 0 0 40px 10px;
+	padding: 20px 180px ;
 }
 /* 자동차에 대해 알려줄게 글씨 끝*/
 
@@ -35,7 +34,7 @@
 /* 로그인 | 회원가입 | Q&A페이지 */
 #TitleRight{
 	float: right;
-	padding-right:30px;
+	padding: 20px 190px 20px 0 ;
 	margin: 0 0 40px 0;
 }
 
@@ -45,15 +44,6 @@
 	text-decoration: none;
 	color: black;
 }
-
-
-
-
-
-
-
-
-
 
 /*  QnAMainPage float설정 해제  */
 #QnAMainPage{
@@ -114,6 +104,8 @@ tr td {
     width: 10%;
     height: 20%;
     text-align: center;	
+    margin: 20px 100px 20px 20px;
+    float: right
 }
 
 
@@ -131,23 +123,18 @@ tr td {
     margin-left: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
+.QnAFindPassword{
+	width: 30%;
+	height: 90px;
+	margin: 20px 0;
+}
 
 
 /* QnASubPage-----------댓글달기테이블 시작 */
 
 
 #QnASebTable{
-	clear: right;
+	clear: both;
 	margin: 1000px auto; /* 이거 나중에 제거하고 container 100%로 해주면 된다. */	
     width:80%;
 	border: solid 2px black;
@@ -178,9 +165,6 @@ tr td {
 #QnASebTableSebNumberId{
 	height:100px;
 }
-
-
-
 
 
 /*  input박스들 textName, textTitle, textContent ,textContentPassword 시작 */
