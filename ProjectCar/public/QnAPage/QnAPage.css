@@ -16,7 +16,11 @@
 #container{
 	height: 100%;
 }
-
+/* 링크들  */
+#TitleLeft a:hover ,#TitleLeft a:link , #TitleLeft a:active ,#TitleLeft a:visited{
+	text-decoration: none;
+	color: black;
+}
 /* 자동차에 대해 알려줄게 글씨 시작*/
 #containerTitle{
     font-family: "YdestreetB";
