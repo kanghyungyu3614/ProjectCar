@@ -38,7 +38,8 @@ function 내용추가(){
 		제목 : textTitle,
 		진짜내용 : textContent,
 		가려진내용 : fakeTextContent,
-		비밀번호 : textContentPassword
+		비밀번호 : textContentPassword,
+		삭제번호 : "0"
 	}
 	// 다음 QnASebTableSebNumberId 의 숫자가 증가해야 하니까 
 	QnASebTableSebNumberId += 1
@@ -83,8 +84,8 @@ function 게시물출력(){
 			     <button class="QnASolutionButton" id="ButtonDelete${i}" onclick="DeleteButton(${i})">삭제하기</button>                                                                 
 				 </td>
 				</tr>`
-				   
-	}
+	}			   
+
 	document.getElementById('QnAMainTable').innerHTML = html
 } // 게시물출력 함수 end  
 
@@ -112,8 +113,8 @@ function AddButton(number){
 	
 	let QnAFindPasswordId = `#QnAContentSolution${number}`
 
-	document.querySelector(QnAFindPasswordId).appendChild(span)
 	document.querySelector(QnAFindPasswordId).appendChild(input)
+	document.querySelector(QnAFindPasswordId).appendChild(span)
 	input.addEventListener('keydown', (e)=>{
 		if(e.keyCode ===13){
 
@@ -144,11 +145,11 @@ function AddSolutionButton(number, input ,span){
 			}
 		}
 		
-	    //---------------------------------여기서 막힌거 같음----------------------------
 		//4.상담글 내용 담는 용도
 		let ContentSolutionText = document.createElement('input')
 		ContentSolutionText.setAttribute("type","text")
-		ContentSolutionText.setAttribute("id",`QnAFindPassword${number}`)	
+		ContentSolutionText.setAttribute("id",`QnAFindPassword${number}`)
+		ContentSolutionText.setAttribute("class",`QnAFindPassword`)	
         document.querySelector(`#QnAContentSolution${number}`).appendChild(ContentSolutionText)
 	    // 3. 상담글을 추가하는 기능 
 		let ContentSolutionButton = document.createElement('button')
@@ -181,11 +182,31 @@ function DeleteButton(number){
 			boardlist[i].작성자 = '삭제된 게시물입니다.'
 			boardlist[i].제목 = '삭제된 게시물입니다.'
 			boardlist[i].내용 = '내용을 보실수 없습니다.'
+			boardlist[i].삭제번호 = "1"; 
 			게시물출력()
-			document.querySelector(`#QnAContentSolution${number}`).textContent = '';
+			삭제게시물()
 		}
 		else{
 		}
 	}
 		    	
 }
+function  삭제게시물 (){
+ 
+ for(let i=0; i<boardlist.length; i++){
+	
+	if(boardlist[i].삭제번호 === "1"){
+		document.querySelector(`#QnAContentSolution${i}`).textContent = '';
+		document.querySelector(`#QnAContent${i}`).textContent = '내용을 보실수 없습니다.'
+	}
+	
+ }	
+}
+
+
+
+
+
+
+
+
