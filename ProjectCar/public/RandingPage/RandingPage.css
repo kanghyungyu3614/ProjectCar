@@ -26,7 +26,10 @@
 	float: left;
 	padding: 20px 0 20px 190px ; 
 }
-
+#TitleLeft a:hover , #TitleLeft a:link,  #TitleLeft a:active, #TitleLeft a:visited {
+	text-decoration: none;
+	color: black;
+}
 /* 로그인 | 회원가입 | Q&A페이지 */
 #TitleRight{
 	float: right;
