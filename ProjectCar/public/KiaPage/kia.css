@@ -1,0 +1,22 @@
+@charset "UTF-8";
+*{padding: 0; margin: 0;}
+a{ text-decoration: none; clear: black;}
+a:hover{color: black;}
+
+#header{ 
+	width: 1200px; 
+	height: 100px; 
+	margin: 0 auto;
+}
+.logoh3{float: left; margin: 20px;}
+.top_menu{ float:right; text-align: right; margin-top: 20px; }
+.top_menu li{display: inline; margin-left: 20px;}
+
+.h3{
+	margin: cneter;
+}
+#main_c{
+	clear: both;
+	width: 400px;
+	height: 100px;
+}
