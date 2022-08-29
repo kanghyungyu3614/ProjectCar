@@ -20,10 +20,17 @@
 
 .main_box{ 
 	border: solid 1px #cccccc;
-	padding-top: 300px;
+	padding-top: 20px;
 	width: 640px;
 	height: 500px;
 	margin : 0 auto; }
+	
+	
+.picto {
+ height: 200px;  
+ width: 200px;
+  text-align:center;
+ }
 	
 
 .login_input{
@@ -64,6 +71,7 @@
 }
 
 .seek_box { 
+	text-align: center;
 	padding-top: 30px;
 	margin-left: 50px;  }
 
