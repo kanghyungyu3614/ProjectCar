@@ -18,28 +18,37 @@
 
 /* 자동차에 대해 알려줄게 글씨 */
 #containerTitle{
+	margin: 0 auto;
+	width: 100%;   
+    height: 94px;
     font-family: "YdestreetB";
     font-size: 40px;
+    background-color: #1c1b1b;
+    color: white;
 }
 
 #TitleLeft{
+	color: white; 
 	float: left;
-	padding: 20px 0 20px 190px ; 
+	margin: 0 0 0 10px;
+	padding: 20px 180px ;
 }
 #TitleLeft a:hover , #TitleLeft a:link,  #TitleLeft a:active, #TitleLeft a:visited {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 /* 로그인 | 회원가입 | Q&A페이지 */
 #TitleRight{
-	float: right;
-	padding-right:30px;
-	padding: 20px 190px 20px 0 ;
+	color: white;
+	float:right;
+	margin: 0 170px 10px 0;	
+	padding: 20px;
+
 }
 /* 로그인 | 회원가입 | Q&A페이지 링크 설정 */
 #TitleRight a:hover , #TitleRight a:link,  #TitleRight a:active, #TitleRight a:visited {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 /* 아래사진을 클릭해주세요. PictureClick */
@@ -50,17 +59,24 @@
 }
 /* 아우디 gif */
 #audiGif{
+	display: block;
+	margin: 0 auto;
     width: 100%;
     height: 1100px;
 }
 /* porsche1_log */
-#porsche1_logo{
+#porsche_logo{
     width: 23%;
     height: 500px; 
 }
-/* Ferrari_logo */
-#Ferrari_logo{
+/* audi_logo */
+#audi_logo{
     width: 28%;
+    height: 500px; 
+}
+/* hyundal_logo */
+#hyundal_logo{
+    width: 24%;
     height: 500px; 
 }
 /* kia_logo */
@@ -68,15 +84,11 @@
     width: 24%;
     height: 500px;
 }
-/* Ford_logo */
-#Ford_logo{
-    width: 24%;
-    height: 500px; 
-}
 /* footer  */
 footer{
+	margin: 0 auto;
 	width:100%;
-	height: 500px;
+	height: 200px;
 	color:white;
     background-color: #1c1b1b;
 }
@@ -103,7 +115,7 @@ footer{
 /* footerURL  */
 #footerURL{
 	text-align:center;
-	padding-top: 180px;
+	padding-top: 60px;
 }
 
 
