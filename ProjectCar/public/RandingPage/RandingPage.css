@@ -86,7 +86,6 @@
 }
 /* footer  */
 footer{
-	margin: 0 auto;
 	width:100%;
 	height: 200px;
 	color:white;
@@ -98,20 +97,12 @@ footer{
 	font-size:30px;
 	color: white;
 }
-.gitLink:hover{
-	text-decoration: none;
-}
-.gitLink:link{
+.gitLink:hover, .gitLink:link , .gitLink:active , .gitLink:visited{
 	text-decoration: none;
 }
 
-.gitLink:active{
-	text-decoration: none;
-}
 
-.gitLink:visited{
-	text-decoration: none;
-}
+
 /* footerURL  */
 #footerURL{
 	text-align:center;
