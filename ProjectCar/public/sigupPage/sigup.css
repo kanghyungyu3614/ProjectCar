@@ -86,6 +86,16 @@ h3{ text-align: left; font-size: 14px; }
 }
 
 
+.choice{
+	display: flex;
+}
+.choice span{
+	font-size: 13px;
+	font-family: '돋움';
+	margin-top: 15px;
+	color: #8e8e8e;
+}
+
 /* ------------------ 휴대 전화 ---------------------*/
 
 #signup_country{ 
