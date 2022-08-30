@@ -11,6 +11,7 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	overflow-x: hidden
 }
 /* 바디  */
 body{
@@ -80,24 +81,28 @@ body{
 	left:10px;
 	font-size:30px;
 	font-weight:bold;
+	overflow-y: hidden;
 }
 #explain2{
 	position: relative;
 	left:-32px;
 	font-size:30px;
-	font-weight:bold;	
+	font-weight:bold;
+	overflow-y: hidden;	
 }
 #explain3{
 	position: relative;
 	left:120px;
 	font-size:30px;
-	font-weight:bold;	
+	font-weight:bold;
+	overflow-y: hidden;	
 }
 #explain4{
 	position: relative;
 	left:-125px;
 	font-size:30px;
-	font-weight:bold;	
+	font-weight:bold;
+	overflow-y: hidden;	
 }
 #explain5{
 	position: relative;
@@ -105,6 +110,7 @@ body{
 	font-size:40px;
 	font-weight:bold;	
 	margin: 20px 0;
+	overflow-y: hidden;
 }
 /* 차 설명 1~5 끝  */
 
@@ -125,7 +131,7 @@ body{
    font-size: 50px;
    font-weight: bold;
    margin-left:200px;
-
+   overflow-y: hidden;
 }
 /* 차 이름 끝  */   
 img{
@@ -151,7 +157,7 @@ img{
   text-align: center;
   margin: 10px 0;
   font-size: 35px;
-	
+  overflow-y: hidden;
 }    
 /* CarTitle 차 명언 제목 끝  */
 
@@ -193,6 +199,7 @@ footer{
 #footerURL{
 	text-align:center;
 	padding-top: 60px;
+	overflow-y: hidden
 }
 
 
