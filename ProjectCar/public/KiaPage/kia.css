@@ -1,7 +1,5 @@
 @charset "UTF-8";
-*{ padding: 0; margin: 0;  }
-a{ text-decoration: none; color: black }
-
+/* Y이드스트릿체 */
 @font-face {
     font-family: 'YdestreetB';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
@@ -14,62 +12,114 @@ a{ text-decoration: none; color: black }
     padding: 0;
     list-style: none;
 }
-/* 전체 div태그  */
-#container{
-    height:100%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 자동차에 대해 알려줄게 글씨 */
 #containerTitle{
+	margin: 0 auto;
+	width: 100%;   
+    height: 94px;
     font-family: "YdestreetB";
     font-size: 40px;
+    background-color: #1c1b1b;
+    color: white;
 }
 
 #TitleLeft{
+	color: white; 
 	float: left;
-	padding: 20px 0 20px 190px ; 
+	margin: 0 0 0 10px;
+	padding: 20px 180px ;
 }
 #TitleLeft a:hover , #TitleLeft a:link,  #TitleLeft a:active, #TitleLeft a:visited {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 /* 로그인 | 회원가입 | Q&A페이지 */
 #TitleRight{
-	float: right;
-	padding-right:30px;
-	padding: 20px 190px 20px 0 ;
+	color: white;
+	float:right;
+	margin: 0 170px 10px 0;	
+	padding: 20px;
+
 }
 /* 로그인 | 회원가입 | Q&A페이지 링크 설정 */
 #TitleRight a:hover , #TitleRight a:link,  #TitleRight a:active, #TitleRight a:visited {
 	text-decoration: none;
-	color: black;
-}
-
-#top_menu{
-	clear: both;
-	float: right;
-}
-
-.sub_menu{ text-align: right; margin-top: 20px;}
-.sub_menu li {display: inline; margin-left: 80px; font-size: 40px;}
-
-#container{
-	clear: both;
-
+	color: white;
 }
 
 
 
-.mid_kia{
-	display: flex;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+	text-align: center;
+	font-size: 50px;
+}
+.main_box{
+	display: flex;}
+p{
+	margin: 0 auto;
+	padding: 20px;
 	font-size: 30px;
 }
+.main_img{
+	width: 600px;
+	padding: 40px;
+}
 
-.kia{
-	
-text-align: center;
+
+
+.bt_box{
+	display: flex;	
+	justify-content: space-between;
+	align-items: center;		
 }
-.kia_img{
-	width: 700px;
-	
+.bot_box{
+	display: flex;	
+	justify-content: space-between;
+	align-items: center;
 }
+
