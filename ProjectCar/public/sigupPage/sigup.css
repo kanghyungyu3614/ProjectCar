@@ -1,12 +1,21 @@
 @charset "UTF-8";
+/* Y이드스트릿체 */
+@font-face {
+    font-family: 'YdestreetB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
-
-*{ margin: 0px;
-   padding: 0px; 
-   }
-
-*{ border: solid 1px blue; }
-
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* 전체 div태그  */
+#container{
+    height:100%;
+}
 
 /*--------- 헤더 -------------*/
 
@@ -26,6 +35,7 @@
 	float: left;
 	margin: 0 0 0 10px;
 	padding: 20px 180px ;
+	font-size: 40px;
 }
 #TitleLeft a:hover , #TitleLeft a:link,  #TitleLeft a:active, #TitleLeft a:visited {
 	text-decoration: none;
@@ -35,7 +45,7 @@
 #TitleRight{
 	color: white;
 	float:right;
-	margin: 0 170px 10px 0;	
+	margin: 10px 170px 0 0;
 	padding: 20px;
 
 }
@@ -53,7 +63,7 @@
 
 .main_signup{ /* 전체 레이아웃 */
 	width: 460px;
-	margin: 0 auto;	/* 가운데정렬*/
+	margin: 100px auto;	/* 가운데정렬*/
 	text-align: center;
 }
 
@@ -165,11 +175,13 @@ h3{ text-align: left; font-size: 14px; }
 
 /* ---------------------------footer-------------------------  */
 
+/* footer  */
 footer{
 	width:100%;
 	height: 200px;
 	color:white;
     background-color: #1c1b1b;
+    margin: 100px 0 0 0;
 }
 /* GitLink*/
 .gitLink{
@@ -188,3 +200,4 @@ footer{
 	text-align:center;
 	padding-top: 60px;
 }
+
