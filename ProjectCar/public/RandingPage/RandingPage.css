@@ -41,8 +41,9 @@
 #TitleRight{
 	color: white;
 	float:right;
-	margin: 0 170px 10px 0;	
+	margin: 10px 170px 0 0;	
 	padding: 20px;
+	font-size: 30px;
 
 }
 /* 로그인 | 회원가입 | Q&A페이지 링크 설정 */
@@ -57,6 +58,10 @@
     font-size: 30px;
     text-align:center;
 }
+/* 로고 이미지들 div */
+#logoImg{
+	text-align: center;
+}
 /* 아우디 gif */
 #audiGif{
 	display: block;
@@ -66,23 +71,23 @@
 }
 /* porsche1_log */
 #porsche_logo{
-    width: 23%;
-    height: 500px; 
+
+    height: 200px; 
 }
 /* audi_logo */
 #audi_logo{
-    width: 28%;
-    height: 500px; 
+
+    height: 200px; 
 }
 /* hyundal_logo */
 #hyundal_logo{
-    width: 24%;
-    height: 500px; 
+
+    height: 200px; 
 }
 /* kia_logo */
 #kia_logo{
-    width: 24%;
-    height: 500px;
+
+    height: 200px;
 }
 /* footer  */
 footer{
