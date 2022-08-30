@@ -1,7 +1,51 @@
 @charset "UTF-8";
 
 
-a{ color: black; text-decoration: none; } /* 하이퍼링크 기본값제거 */
+*{ margin: 0px;
+   padding: 0px; 
+   }
+
+
+/*--------- 헤더 -------------*/
+
+/* 자동차에 대해 알려줄게 글씨 */
+#containerTitle{
+	margin: 0 auto;
+	width: 100%;   
+    height: 94px;
+    font-family: "YdestreetB";
+    font-size: 40px;
+    background-color: #1c1b1b;
+    color: white;
+}
+
+#TitleLeft{
+	color: white; 
+	float: left;
+	margin: 0 0 0 10px;
+	padding: 20px 180px ;
+}
+#TitleLeft a:hover , #TitleLeft a:link,  #TitleLeft a:active, #TitleLeft a:visited {
+	text-decoration: none;
+	color: white;
+}
+/* 로그인 | 회원가입 | Q&A페이지 */
+#TitleRight{
+	color: white;
+	float:right;
+	margin: 0 170px 10px 0;	
+	padding: 20px;
+
+}
+/* 로그인 | 회원가입 | Q&A페이지 링크 설정 */
+#TitleRight a:hover , #TitleRight a:link,  #TitleRight a:active, #TitleRight a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+/*---------------본 문  전체  --------------------*/
 
 *:focus{  outline: none;  } /* 커서(포커스) 가 있을경우 테두리 제거 */
 
@@ -11,8 +55,11 @@ a{ color: black; text-decoration: none; } /* 하이퍼링크 기본값제거 */
 	text-align: center;
 }
 
+h1{ 
+	text-align: center;
+     }
+h3{ text-align: left; font-size: 14px; }
 
-h3{ text-align: left; font-size: 14px; font-family:'돋움'; }
 
 .signup_input{
 	display: block;
@@ -21,59 +68,59 @@ h3{ text-align: left; font-size: 14px; font-family:'돋움'; }
 	border: solid 1px #cccccc;
 	background-color: #ffffff;
 }
+
+
+/* ------------------아이디, 비밀번호 ,재확인 , 이름 , 이메일---------------------*/
+
+
 #signup_id , #signup_pw , #signup_rpw{
 	height: 30px;	/* 높이길이 */
 	border: none; /*테두리 제거 */
 	width: 100%;	/* 가로길이 */
 }
 
-
-/* ------------------이름 , 이메일 , 휴대전화 ---------------------*/
-#signup_name , #signup_email , 
-#signup_country ,#signup_phone , #signup_num{
+#signup_name , #signup_email {
 	width: 100%; height: 30px; border: none;
 }
 
 
-.signup_input_birth{
-	display : block; width: 100%; height: 50px;
-	background-color: #ffffff;
-	box-sizing: border-box;
-	padding: 10px;
-	border: solid 1px #dadada;
-}
-#signup_birth_yy , #signup_birth_mm , #signup_birth_dd{
-	width: 120px; height: 30px; border: none; 
-}
-.choice{
-	display: flex;
-}
-.choice span{
-	font-size: 13px;
-	font-family: '돋움';
-	margin-top: 15px;
-	color: #8e8e8e;
-}
 /* ------------------ 휴대 전화 ---------------------*/
-.phonebox{ /* 전호번호 입력 , 인증번호 버튼 -> 가로 배치  */
-	display: flex;
-	margin: 10px 0px;
+
+#signup_country{ 
+	 display: block;
+	 float: left;
+	 width: 130px;
+	  height: 25px;
+	 
 }
-.phoneinput{
-	width: 100%;
+
+#signup_phone{ 
+	
+	 border: none;
+    display: block;
+	 float: center;
+	 height: 25px;
+	 width: 200px;
+	  height: 25px;
+
 }
-.signup_btn{ /* 인증번호 받기 박스 */ 
-	height: 52px;
-	background-color: #000000;
-	margin: 2px 0 0 10px;
-	line-height: 50px;
-}
+
+
 #num_btn{ /* 인증번호 버튼 */ 
+
+    display: block;
+	float: right; 
 	width: 110px;
 	background-color: #000000;
 	border: none; color: white;
+	margin: 5px;
 	font-size: 15px;
+   height: 25px;
 }
+
+
+
+/*----------가입 하기 버튼   ----------*/
 
 .signup_btn_wrap{  /* 가입하기 박스 */
 	margin-top : 20px; margin-bottom : 30px;
@@ -87,21 +134,44 @@ h3{ text-align: left; font-size: 14px; font-family:'돋움'; }
 	border: none; color:  #ffffff;
 	font-size: 18px;
 }
-#disabledbox{
-	background-color: gray;
+
+
+/*-------이용 약관 동의 ------*/
+
+.box, .box_2 {
+  display :block;
+  float: left;
+  text-align: left;
+       }
+
+
+
+
+/* ---------------------------footer-------------------------  */
+
+footer{
+	width:100%;
+	height: 200px;
+	color:white;
+    background-color: #1c1b1b;
+}
+/* GitLink*/
+.gitLink{
+	font-family: 'YdestreetB';
+	font-size:30px;
+	color: white;
+}
+.gitLink:hover, .gitLink:link , .gitLink:active , .gitLink:visited{
+	text-decoration: none;
 }
 
-.ft_box{
-	font-size: 10px;
-}
-a:hover {
-	color: #03c75a;
-}
 
 
-
-
+/* footerURL  */
 #footerURL{
 	text-align:center;
-	padding-top: 180px;
-};
+	padding-top: 60px;
+}
+
+
+
