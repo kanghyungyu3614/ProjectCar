@@ -11,7 +11,8 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	overflow-x: hidden
+	overflow-x: hidden;
+	font-family: 'YdestreetB';
 }
 /* 바디  */
 body{
@@ -71,17 +72,21 @@ body{
    width: 100%;
    font-size:20px;
    margin: 20px 0 20px 0;
+   line-height: 2;
 }
 /*car_Information 상위 컴포넌트 끝 */
 
 
 /* 차 설명 1~5 시작 */
+
+
 #explain1{
 	position: relative;
 	left:10px;
 	font-size:30px;
 	font-weight:bold;
 	overflow-y: hidden;
+	line-height: 2;
 }
 #explain2{
 	position: relative;
@@ -89,6 +94,7 @@ body{
 	font-size:30px;
 	font-weight:bold;
 	overflow-y: hidden;	
+	line-height: 2;
 }
 #explain3{
 	position: relative;
@@ -96,6 +102,7 @@ body{
 	font-size:30px;
 	font-weight:bold;
 	overflow-y: hidden;	
+	line-height: 2;
 }
 #explain4{
 	position: relative;
@@ -103,6 +110,7 @@ body{
 	font-size:30px;
 	font-weight:bold;
 	overflow-y: hidden;	
+	line-height: 2;
 }
 #explain5{
 	position: relative;
@@ -111,6 +119,7 @@ body{
 	font-weight:bold;	
 	margin: 20px 0;
 	overflow-y: hidden;
+	line-height: 2;
 }
 /* 차 설명 1~5 끝  */
 
@@ -146,7 +155,7 @@ img{
    font-size: 30px;
    font-weight: bold;
    text-align: left;
-   line-height: 1.5;
+   line-height: 1.8;
    margin: 0 60px 0 0 ;
    
 }
@@ -186,7 +195,7 @@ footer{
 /* GitLink*/
 .gitLink{
 	font-family: 'YdestreetB';
-	font-size:20px;
+	font-size:30px;
 	color: white;
 }
 .gitLink:hover, .gitLink:link , .gitLink:active , .gitLink:visited{
@@ -198,31 +207,6 @@ footer{
 /* footerURL  */
 #footerURL{
 	text-align:center;
-	padding-top: 70px;
+	padding-top: 60px;
 	overflow-y: hidden
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
