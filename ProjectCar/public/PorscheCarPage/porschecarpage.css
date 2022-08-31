@@ -161,6 +161,11 @@ body{
   display: inline-block;
   width: 650px;
   height: 600px;
+   box-shadow: 0 0 5px #ffffff;
+    text-align: left;
+    font-size: 20px;
+    padding: 30px;
+    font-family: 맑은 고딕;
   
 }    
 

@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<title>Insert title here</title>
 	<!-- css 기본 초기화 -->
-	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link href="porschecarpage2.css" rel="stylesheet">
 </head>
 <body>
@@ -25,48 +25,110 @@
 		<div class="car_video">
 			<video src="img/포르쉐광고.webm" autoplay loop muted width="100%"></video>
 					
+		</div>
+		<div>
+				<!--  차량 소개전 코멘트  -->
+			<div class="car_Information">
+				<div class="car_name"> Porsche Taycan Turbo S </div> <!--  차 이름  -->
+			<!-- 차량 소개  -->	
+					<div id="car_content" style="box-shadow: 0 0 3px #ffffff">  <!--  차량 소개코멘트  -->
+						포르쉐는 2019년 자사 최초의 순수 전기 스포츠카 타이칸을 출시하며
+						새로운 시대를 열었다. 4도어 스포츠 세단인 타이칸은 독특한 패키지와
+						전형적인 포르쉐 성능, 커넥티비티와 일상의 실용성을 모두 갖췄다. 
+						고도화된 타이칸의 생산 방식과 제품 특징은 지속가능성과 디지털화 분야에서
+						새로운 기준을 정립했다.
+					</div>
+			</div>
 		</div>	
 		
-		<div id="carspec">
-			<img src="img/타이칸2.jpg">
-			<div class="car_text">
-				<div>모터</div>
-				<div>연료	 : 전기</div>
-				<div>최고출력 : 390kW 523hp </div>
-				<div>최대토크 : 640Nm 65.3kg.m</div>
-				<div>배터리</div>
-				<div>최고속도 : 250km/h</div>	
-				<div>가속성능 : 4초</div>
-				<div>주행거리 : 251km</div>
-				<div>용량 : 79.2kwh</div>
-				<div>타입 : 리튬 이온</div>
-				<div>가격 : 14,560~23,360만원</div>
-			</div>
-						
-		<div id="carspec2">
-			<img src="img/타이칸3.jpg">
-			<div class="car_text2">
-				<div>퍼포먼스 배터리.</div>
-				<div>타이칸의 배터리는 장거리 주행 시 극한의</div>
-				<div>성능을 발휘하도록 화학적으로 최적화된 파우치 셀로</div>
-				<div>막강한 잠재력을 과시합니다. 대용량 버전인 퍼포먼스 배터리</div>
-				<div>플러스는 타이칸 터보 및 타이칸 터보 S에 탑재되며 모듈 33개,</div>
-				<div>셀 총합 396개로 구성되어 있습니다. 
-				<div>더 컴팩트한 퍼포먼스 배터리는 타이칸 및 타이칸 4S에 기본 사양으로 장착되어</div>
-				<div>있으며, 모듈 28개, 셀 총합 336개로 에너지를 생성합니다.</div>
-				
-			</div>				
-			
-			
-				
-				
+		<div style="width: 1400px; margin: 0 auto;">
+				<div> <!-- 캐러셀 -->
+					<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="img/타이칸.jpg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="img/타이칸2.jpg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="img/타이칸3.jpg" class="d-block w-100" alt="...">
+					    </div>
+					  </div>
+					  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Previous</span>
+					  </button>
+					  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Next</span>
+					  </button>
+					</div>
+				</div>
 		</div>
-			<img class="gif" src="img/타이칸6.gif">
-	</div>
+		<div style="width: 1000px; margin: 100px auto;">
+			<div style="display: flex;">
+				<div style="width: 50%; align-self: center;">
+					<h1> Specification </h1>
+				</div>
+				<div style="width: 50%;">
+					<p style="text-align: left;">
+					연료	 : 전기<br>
+					최고출력 : 390kW 523hp<br> 
+					최대토크 : 640Nm 65.3kg.m<br>
+					최고속도 : 250km/h<br>	
+					가속성능 : 4초<br>
+					주행거리 : 251km<br>
+					용량 : 79.2kwh<br>
+					타입 : 리튬 이온<br>
+					가격 : 14,560~23,360만원 
+					</p>
+				</div>
+				
+			</div>
+			
+			<div style="display: flex; flex-direction: row-reverse; margin: 100px;">
+				<div style="width: 50%; align-self: center;">
+					<h1> battery </h1>
+				</div>
+				<div style="width: 50%;">
+					<p style="text-align: right;">
+					타이칸의 배터리는 장거리 주행 시 극한의
+					성능을 발휘하도록 화학적으로 최적화된 파우치 셀로
+					막강한 잠재력을 과시합니다. 대용량 버전인 퍼포먼스 배터리
+					플러스는 타이칸 터보 및 타이칸 터보 S에 탑재되며 모듈 33개,
+					셀 총합 396개로 구성되어 있습니다. 
+					더 컴팩트한 퍼포먼스 배터리는 타이칸 및 타이칸 4S에 기본 사양으로 장착되어
+					있으며, 모듈 28개, 셀 총합 336개로 에너지를 생성합니다.
+					</p>
+				</div>
+				
+			</div>
+			
+			
+			<div style="width: 500px;">
 		
+			</div>
+		</div>
+		
+		<div style="width: 1400px; margin: 0 auto; display: flex;">
+			<div style="width: 300px; margin: 30px;">
+				<iframe  src="https://www.youtube.com/embed/2lFKq60_EFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div style="width: 300px; margin: 30px;">
+				<iframe src="https://www.youtube.com/embed/nTXyfx8zHmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div style="width: 300px; margin: 30px;">
+			<iframe src="https://www.youtube.com/embed/kh9XLjty6Nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div style="width: 300px; margin: 30px;">
+			<iframe src="https://www.youtube.com/embed/V6GZ1B2BTMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
 	</div>
 	
-	
+	 
 	<footer>
          <div id="footerURL">
            <a class="gitLink" href="https://github.com/kanghyungyu3614/ProjectCar">GitHub주소</a> |
@@ -78,10 +140,9 @@
            <a class="gitLink" href="https://github.com/dive27">최윤미</a> 
          </div>
         
-        </footer>
-	
+        </footer> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<script src="js.js"></script>
 	
-
 </body>
 </html>
