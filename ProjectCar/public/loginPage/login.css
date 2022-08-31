@@ -9,9 +9,15 @@
 }
 
 *{
-  margin: 0px; 
-  padding: 0px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
+/* 전체 div태그  */
+#container{
+    height:100%;
+}
+
 
 
 *:focus{  outline: none;  } 
@@ -140,7 +146,7 @@ height: 200px;
        }
 
 
-
+*{border: solid 1px blue;}
 
 
 /*------------------  하단  -----------------------*/

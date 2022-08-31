@@ -1,9 +1,23 @@
 @charset "UTF-8";
 
 
-*{ margin: 0px;
-   padding: 0px; 
-   }
+/* Y이드스트릿체 */
+@font-face {
+    font-family: 'YdestreetB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* 전체 div태그  */
+#container{
+    height:100%;
+}
 
 
 
@@ -69,6 +83,7 @@ h3{ text-align: left; font-size: 14px; }
 	padding: 0px;
 	border: solid 1px #cccccc;
 	background-color: #ffffff;
+	margin-bottom: 15px;
 	
 }
 
@@ -198,6 +213,8 @@ h3{ text-align: left; font-size: 14px; }
 	height: 16px; 
 	 width: 16px;
 }
+
+
 
 
 /* ---------------------------footer-------------------------  */
