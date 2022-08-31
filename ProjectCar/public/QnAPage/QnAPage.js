@@ -39,7 +39,8 @@ function 내용추가(){
 		진짜내용 : textContent,
 		가려진내용 : fakeTextContent,
 		비밀번호 : textContentPassword,
-		삭제번호 : "0"
+		삭제번호 : "0",
+		상담내용 : ""
 	}
 	// 다음 QnASebTableSebNumberId 의 숫자가 증가해야 하니까 
 	QnASebTableSebNumberId += 1
@@ -163,6 +164,7 @@ function AddSolutionButton(number, input ,span){
         ContentSolutionButton.addEventListener("click",()=>{
 	        ContentSolutionButton.style.display = "none";
 	        ContentSolutionText.style.display = "none";
+            
             SolutionQnA.textContent = ContentSolutionText.value;
             
         
@@ -171,6 +173,7 @@ function AddSolutionButton(number, input ,span){
         
         } //if 문 끝		
         else if(boardlist[number].비밀번호 !== input.value){
+	     boardlist[number].상담내용 =  document.querySelector(`#QnAContentSolution${number}`).value
 	     alert("비밀번호를 다시 입력하세요.")
         }
 
@@ -184,20 +187,28 @@ function DeleteButton(number){
 			boardlist[i].내용 = '내용을 보실수 없습니다.'
 			boardlist[i].삭제번호 = "1"; 
 			게시물출력()
-			삭제게시물()
+			삭제게시물(number)
 		}
 		else{
 		}
 	}
 		    	
 }
-function  삭제게시물 (){
+function  삭제게시물 (number){
  
  for(let i=0; i<boardlist.length; i++){
 	
-	if(boardlist[i].삭제번호 === "1"){
-		document.querySelector(`#QnAContentSolution${i}`).textContent = '';
+	if(boardlist[i].삭제번호 === "1" || number === i  ){
 		document.querySelector(`#QnAContent${i}`).textContent = '내용을 보실수 없습니다.'
+		document.querySelector(`#QnAContentSolution${i}`).textContent = '';
+	}
+	else if(boardlist[i].삭제번호 !== "1" ){
+		document.querySelector(`#QnAContent${i}`).textContent = boardlist[i].내용
+		console.log("document.querySelector(`#QnAContentSolution${i}`).value",document.querySelector(`#QnAContentSolution${i}`).value)
+		if(boardlist[i].상담내용.length>1){
+			document.querySelector(`#QnAContentSolution${i}`).textContent = boardlist[i].상담내용;
+		}
+		
 	}
 	
  }	
