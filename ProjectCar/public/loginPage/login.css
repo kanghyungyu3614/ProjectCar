@@ -21,6 +21,7 @@
 
 
 *:focus{  outline: none;  } 
+
 /*------------------   헤더   -----------------------*/
 
 /* 전기차에 대해 알려줄게 글씨 */
@@ -170,11 +171,15 @@ footer{
 }
 
 
-
 /* footerURL  */
 #footerURL{
 	text-align:center;
 	padding-top: 60px;
+<<<<<<< HEAD
 }
 
+=======
+
+}
+>>>>>>> refs/remotes/origin/project_car_sub2
 
