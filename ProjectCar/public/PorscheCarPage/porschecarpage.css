@@ -1,6 +1,6 @@
-@charset "EUC-KR";
+@charset "UTF-8";
 
-/* YÀÌµå½ºÆ®¸´Ã¼ */
+/* Yì´ë“œìŠ¤íŠ¸ë¦¿ì²´ */
 @font-face {
     font-family: 'YdestreetB';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
@@ -15,7 +15,7 @@ body{
 }
 
 
-/*------------------Çì´õ----------------------*/
+/*------------------í—¤ë”----------------------*/
 
 * {
     font-family: 'YdestreetB';
@@ -25,7 +25,7 @@ body{
      
 }
 
-/* ÀÚµ¿Â÷¿¡ ´ëÇØ ¾Ë·ÁÁÙ°Ô ±Û¾¾ */
+/* ìë™ì°¨ì— ëŒ€í•´ ì•Œë ¤ì¤„ê²Œ ê¸€ì”¨ */
 #containerTitle{
 	margin: 0 auto;
 	width: 100%;   
@@ -48,7 +48,7 @@ body{
 	text-decoration: none;
 	color: white;
 }
-/* ·Î±×ÀÎ | È¸¿ø°¡ÀÔ | Q&AÆäÀÌÁö */
+/* ë¡œê·¸ì¸ | íšŒì›ê°€ì… | Q&Aí˜ì´ì§€ */
 #TitleRight{
 	color: white;
 	float:right;
@@ -58,7 +58,7 @@ body{
 	font-family: 'YdestreetB';
 	font-weight: bold;
 }
-/* ·Î±×ÀÎ | È¸¿ø°¡ÀÔ | Q&AÆäÀÌÁö ¸µÅ© ¼³Á¤ */
+/* ë¡œê·¸ì¸ | íšŒì›ê°€ì… | Q&Aí˜ì´ì§€ ë§í¬ ì„¤ì • */
 #TitleRight a:hover , #TitleRight a:link,  #TitleRight a:active, #TitleRight a:visited {
 	text-decoration: none;
 	color: white;
