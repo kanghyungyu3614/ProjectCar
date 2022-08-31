@@ -11,7 +11,8 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	overflow-x: hidden
+	overflow-x: hidden;
+	font-family: 'YdestreetB';
 }
 /* 바디  */
 body{
