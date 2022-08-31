@@ -13,6 +13,8 @@
   padding: 0px;
 }
 
+
+*:focus{  outline: none;  } 
 /*------------------   헤더   -----------------------*/
 
 /* 전기차에 대해 알려줄게 글씨 */
@@ -103,10 +105,14 @@ height: 200px;
 	
 }
 
+.box_1 { margin-bottom: 20px;
+	
+}
 
 .box_2{  display :block;
          float: left; 
          margin-left: 70px;
+      
          }
 
 
@@ -118,17 +124,20 @@ height: 200px;
 	margin : 0 auto;
 	width: 500px;
 	height : 48px;
-	color:  #cccccc;
+	background-color: gray;
+	border: none;
+	color: white;
 }
 
 .seek_box { 
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 20px;
 	margin-left: 50px;  }
 
 .seek{  
 	    margin : 0 auto;
 	    text-align:center; 
+	    color: black;
        }
 
 
