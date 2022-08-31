@@ -1,0 +1,118 @@
+/* Y이드스트릿체 */
+@font-face {
+    font-family: 'YdestreetB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 전체 */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* 전체 div태그  */
+#container{
+    height:100%;
+}
+
+/* 전기차에 대해 알려줄게 글씨 */
+#containerTitle{
+	margin: 0 auto;
+	width: 100%;   
+    height: 94px;
+    font-family: "YdestreetB";
+    font-size: 40px;
+    background-color: #1c1b1b;
+    color: white;
+}
+
+#TitleLeft{
+	color: white; 
+	float: left;
+	margin: 0 0 0 10px;
+	padding: 20px 180px ;
+}
+#TitleLeft a:hover , #TitleLeft a:link,  #TitleLeft a:active, #TitleLeft a:visited {
+	text-decoration: none;
+	color: white;
+}
+/* 로그인 | 회원가입 | Q&A페이지 */
+#TitleRight{
+	color: white;
+	float:right;
+	margin: 10px 170px 0 0;	
+	padding: 20px;
+	font-size: 30px;
+
+}
+/* 로그인 | 회원가입 | Q&A페이지 링크 설정 */
+#TitleRight a:hover , #TitleRight a:link,  #TitleRight a:active, #TitleRight a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+/* 아래사진을 클릭해주세요. PictureClick */
+#PictureClick{
+    font-family: "YdestreetB";
+    font-size: 30px;
+    text-align:center;
+}
+/* 로고 이미지들 div */
+#logoImg{
+	text-align: center;
+}
+/* 아우디 gif */
+#audiGif{
+	display: block;
+	margin: 0 auto;
+    width: 100%;
+    height: 1100px;
+}
+/* porsche1_log */
+#porsche_logo{
+
+    height: 200px; 
+}
+/* audi_logo */
+#audi_logo{
+
+    height: 200px; 
+}
+/* hyundal_logo */
+#hyundal_logo{
+
+    height: 200px; 
+}
+/* kia_logo */
+#kia_logo{
+
+    height: 200px;
+}
+/* footer  */
+footer{
+	width:100%;
+	height: 200px;
+	color:white;
+    background-color: #1c1b1b;
+}
+/* GitLink*/
+.gitLink{
+	font-family: 'YdestreetB';
+	font-size:30px;
+	color: white;
+}
+.gitLink:hover, .gitLink:link , .gitLink:active , .gitLink:visited{
+	text-decoration: none;
+}
+
+
+
+/* footerURL  */
+#footerURL{
+	text-align:center;
+	padding-top: 60px;
+}
+
+
+
