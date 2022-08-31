@@ -6,24 +6,27 @@
     font-weight: normal;
     font-style: normal;
 }
-/* 전체 */
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+/*  전체 */
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow-x: hidden
+}
+/* 바디  */
+body{
+   background-color: #d9d9d9;
+   
+}
+/* ----------------------container-------------------*/
+/* div 에서 container */
+#container{
+   width: 100%;
+   height: 100%;
 }
 
 
-
-
-
-
-
-
-
-
-
-
+/*------------------헤더----------------------*/
 
 
 /* 전기차에 대해 알려줄게 글씨 */
@@ -64,40 +67,95 @@
 /* 로그인 | 회원가입 | Q&A페이지 링크 설정 끝*/
 
 
-
-h1{
-	text-align: center;
-	font-size: 50px;
+/*car_Information  상위 컴포넌트 시작 */
+#car_Information{
+   text-align: center;
+   width: 100%;
+   font-size:20px;
+   margin: 20px 0 20px 0;
 }
-.main_box{
-	display: flex;}
-p{
-	margin: 0 auto;
-	padding: 20px;
+/*car_Information 상위 컴포넌트 끝 */
+
+
+
+/* 차 설명 1~5 s */
+#explain1{
+	position: relative;
+	left: 10px;
 	font-size: 30px;
+	font-weight: bold;
+	overflow-y: hidden;
 }
-.main_img{
-	width: 600px;
-	padding: 40px;
+#explain2{
+	position: relative;
+	left: 32px;
+	font-size: 30px;
+	font-weight: bold;
+	overflow-y: hidden;
+}
+#explain3{
+	position: relative;
+	left: 120px;
+	font-size: 30px;
+	font-weight: bold;
+	overflow-y: hidden;
+}
+#explain4{
+	position: relative;
+	left: 125x;
+	font-size: 30px;
+	font-weight: bold;
+	overflow-y: hidden;
+}
+#explain5{
+	position: relative;
+	left: 10px;
+	font-size: 40px;
+	font-weight: bold;
+	overflow-y: hidden;
 }
 
+/* 차 설명 1-~5 끝 */
 
 
-.bt_box{
-	display: flex;	
-	justify-content: space-between;
-	align-items: center;		
+/* 차 이름 시작 */
+.car_name{
+
+	font-size: 50px;
+	font-weight: bold;
+	margin-left: 200px;
+	overflow-y:hidden;
+	
 }
-.bot_box{
-	display: flex;	
-	justify-content: space-between;
-	align-items: center;
+/* 차 이름 끝 */
+img{
+	width: 45%;
+	height: 600px;
 }
+/* 차량 소개코멘트 시작 */
+#car_comment{
+	width: 50%;
+	height: 600px;
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 1.5;
+	margin: 0 60px 0 0 ;
+}
+/*차량 소개코멘트 시작 */
+
+/*cartitle 제목 */
+#CarTitle{
+	text-align: center;
+	margin: 10px 0;
+	font-size: 35px;
+	overflow-y:hidden;
+}
+/* 차 제목 끝
 
 /* footer  */
 footer{
-	clear: left;
-	margin: 100px 0 0 0 ;
 	width:100%;
 	height: 200px;
 	color:white;
@@ -114,11 +172,33 @@ footer{
 }
 
 
+/* footer  */
+footer{
+	clear: left;
+	margin: 100px 0 0 0 ;
+	width:100%;
+	height: 200px;
+	color:white;
+    background-color: #1c1b1b;
+}
+/* GitLink*/
+.gitLink{
+	font-family: 'YdestreetB';
+	font-size:20px;
+	color: white;
+}
+.gitLink:hover, .gitLink:link , .gitLink:active , .gitLink:visited{
+	text-decoration: none;
+}
+
+
+
 
 /* footerURL  */
 #footerURL{
 	text-align:center;
-	padding-top: 60px;
+
+	padding-top: 70px;
 	overflow-y: hidden
 }
 

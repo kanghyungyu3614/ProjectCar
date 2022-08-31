@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* Y이드스트릿체 */
 @font-face {
     font-family: 'YdestreetB';
@@ -9,11 +8,18 @@
 }
 
 *{
-  margin: 0px; 
-  padding: 0px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* 전체 div태그  */
+#container{
+    height:100%;
 }
 
-/*------------------   헤더   -----------------------*/
+
+
+/*--------- 헤더 -------------*/
 
 /* 전기차에 대해 알려줄게 글씨 */
 #containerTitle{
@@ -71,11 +77,9 @@
 	
 	
 .picto {
-	
 display :block;
 margin : 0 auto;
-height: 200px;  
- width: 200px;
+width: 200px;
 
  }
 	
@@ -94,6 +98,26 @@ height: 200px;
 
 
 
+
+.login_input_2{
+	float: center;
+	display: block;
+	width: 500px;
+	height : 48px;
+	padding: 0px ;
+	border: solid 1px #cccccc;
+	background-color: #ffffff;
+	margin : 0 auto;
+	margin-bottom: 10px;
+	}
+
+
+
+
+
+
+
+
 #login_id, #login_pw{
     margin : 10px 5px 5px 10px;
 	width: 400px;	/* 가로길이 */
@@ -103,12 +127,28 @@ height: 200px;
 	
 }
 
+.box_1 { 
+	
+	margin-top: -10px;
+	margin-bottom: 20px;
+
+}
+	
+	
+	
+	
 
 .box_2{  display :block;
          float: left; 
+         margin-top: 3px;
          margin-left: 70px;
+         font-size: 15px;
          }
 
+.box3{ 
+	
+	margin-top: 15px;
+}
 
 
 #login_btn {
@@ -116,21 +156,24 @@ height: 200px;
 	border-radius: 40px;
 	display: block;
 	margin : 0 auto;
+	margin-top : 20px;
 	width: 500px;
 	height : 48px;
-	color:  #cccccc;
+	background-color: gray;
+	border: none;
+	color: white;
 }
 
 .seek_box { 
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 20px;
 	margin-left: 50px;  }
 
 .seek{  
 	    margin : 0 auto;
 	    text-align:center; 
+	    color: black;
        }
-
 
 
 
@@ -139,11 +182,15 @@ height: 200px;
 
 
 /* footer  */
+
 footer{
 	width:100%;
 	height: 200px;
 	color:white;
     background-color: #1c1b1b;
+
+    margin: 100px 0 0 0;
+
 }
 /* GitLink*/
 .gitLink{
