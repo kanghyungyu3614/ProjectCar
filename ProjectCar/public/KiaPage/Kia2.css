@@ -37,6 +37,7 @@ body{
 
 
 
+
 /* 자동차에 대해 알려줄게 글씨 */
 #containerTitle{
 	margin: 0 auto;
@@ -46,6 +47,7 @@ body{
     font-size: 40px;
     background-color: #1c1b1b;
     color: white;
+
 }
 
 #TitleLeft{

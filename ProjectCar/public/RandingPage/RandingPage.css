@@ -16,7 +16,7 @@
     height:100%;
 }
 
-/* 자동차에 대해 알려줄게 글씨 */
+/* 전기차에 대해 알려줄게 글씨 */
 #containerTitle{
 	margin: 0 auto;
 	width: 100%;   
@@ -41,14 +41,16 @@
 #TitleRight{
 	color: white;
 	float:right;
-	margin: 0 170px 10px 0;	
+	margin: 10px 170px 0 0;	
 	padding: 20px;
+	font-size: 30px;
 
 }
 /* 로그인 | 회원가입 | Q&A페이지 링크 설정 */
 #TitleRight a:hover , #TitleRight a:link,  #TitleRight a:active, #TitleRight a:visited {
 	text-decoration: none;
 	color: white;
+	margin: 100px 0;
 }
 
 /* 아래사진을 클릭해주세요. PictureClick */
@@ -56,33 +58,38 @@
     font-family: "YdestreetB";
     font-size: 30px;
     text-align:center;
+    margin: 100px 0;
+}
+/* 로고 이미지들 div */
+#logoImg{
+	text-align: center;
+	margin: 100px 0;
 }
 /* 아우디 gif */
 #audiGif{
 	display: block;
 	margin: 0 auto;
     width: 100%;
-    height: 1100px;
 }
 /* porsche1_log */
 #porsche_logo{
-    width: 23%;
-    height: 500px; 
+
+    height: 200px; 
 }
 /* audi_logo */
 #audi_logo{
-    width: 28%;
-    height: 500px; 
+
+    height: 200px; 
 }
 /* hyundal_logo */
 #hyundal_logo{
-    width: 24%;
-    height: 500px; 
+
+    height: 200px; 
 }
 /* kia_logo */
 #kia_logo{
-    width: 24%;
-    height: 500px;
+
+    height: 200px;
 }
 /* footer  */
 footer{
@@ -94,7 +101,7 @@ footer{
 /* GitLink*/
 .gitLink{
 	font-family: 'YdestreetB';
-	font-size:30px;
+	font-size:20px;
 	color: white;
 }
 .gitLink:hover, .gitLink:link , .gitLink:active , .gitLink:visited{
@@ -106,7 +113,7 @@ footer{
 /* footerURL  */
 #footerURL{
 	text-align:center;
-	padding-top: 60px;
+	padding-top: 70px;
 }
 
 

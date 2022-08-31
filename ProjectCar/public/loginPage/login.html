@@ -7,30 +7,45 @@
    <!-- 구글폰트 css  -->
    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
     <!-- 사용자정의 css -->
-   <link href= "login.css" rel ="stylesheet">
+   <link href=  "login.css" rel ="stylesheet">
 
 <body>
+
+    <div id="containerTitle">
+          <div id="TitleLeft"><a href="../RandingPage/RandingPage.html">전기차에 대해 알려줄게</a></div>
+          <div id="TitleRight">
+
+	          <a href="">로그인</a> | 
+
+	          <a href="../sigupPage/sigup.html">회원가입</a> | 
+	          <a href="../QnAPage/QnAPage.html">Q&amp;A페이지</a>
+        </div>
+    </div>
+
    
    <div class="wapper">
 
-       <section class="main_box">   <!-- 회원가입 본문  -->
+       <section class="main_box">   <!-- 로그인 본문-->
        
+           <div>
+             <img class="picto" src="image/electric_car.JPG">
+           </div>
        
-	       <div>  <!-- 아이디 , 비밀번호  -->
+	       <div class = "box3">  <!-- 아이디 , 비밀번호  -->
 	
 	          <span class="login_input">
 		      <input id="login_id" type="text" placeholder="아이디(이메일)">
 		      </span>
 		      
-		      <span class="login_input">
+		      <span class="login_input_2">
               <input id="login_pw" type="password" placeholder="비밀번호">	
 			  </span>	  	
 			  
 	      </div>
 	     
-	      <div><!-- 로그인 유지 -->
-	      
-	      
+
+	      <div class="box1" ><!-- 로그인 유지 -->
+
 	        <span>
             <input class ="box_2" type="checkbox">로그인 유지
             </span>   
@@ -38,7 +53,7 @@
 	      </div>    
                
 		  <div> <!-- 로그인 버튼 -->
-				<button id="login_btn">로그인</button>
+				<button id="login_btn" type="submit"> 로그인 </button>
 		  </div>
 	
 	

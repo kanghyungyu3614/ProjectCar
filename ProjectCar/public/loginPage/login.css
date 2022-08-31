@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* Y이드스트릿체 */
 @font-face {
     font-family: 'YdestreetB';
@@ -8,7 +7,58 @@
     font-style: normal;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* 전체 div태그  */
+#container{
+    height:100%;
+}
 
+
+
+/*--------- 헤더 -------------*/
+
+/* 전기차에 대해 알려줄게 글씨 */
+#containerTitle{
+	margin: 0 auto;
+	width: 100%;   
+    height: 94px;
+    font-family: "YdestreetB";
+    font-size: 40px;
+    background-color: #1c1b1b;
+    color: white;
+}
+
+#TitleLeft{
+	color: white; 
+	float: left;
+	margin: 0 0 0 10px;
+	padding: 20px 180px ;
+}
+#TitleLeft a:hover , #TitleLeft a:link,  #TitleLeft a:active, #TitleLeft a:visited {
+	text-decoration: none;
+	color: white;
+}
+/* 로그인 | 회원가입 | Q&A페이지 */
+#TitleRight{
+	color: white;
+	float:right;
+	margin: 10px 170px 0 0;	
+	padding: 20px;
+	font-size: 30px;
+
+}
+/* 로그인 | 회원가입 | Q&A페이지 링크 설정 */
+#TitleRight a:hover , #TitleRight a:link,  #TitleRight a:active, #TitleRight a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+
+/*------------------   본문   -----------------------*/
 
 
 .wapper{
@@ -20,10 +70,18 @@
 
 .main_box{ 
 	border: solid 1px #cccccc;
-	padding-top: 300px;
+	padding-top: 20px;
 	width: 640px;
 	height: 500px;
 	margin : 0 auto; }
+	
+	
+.picto {
+display :block;
+margin : 0 auto;
+width: 200px;
+
+ }
 	
 
 .login_input{
@@ -34,9 +92,29 @@
 	padding: 0px ;
 	border: solid 1px #cccccc;
 	background-color: #ffffff;
+	margin : 0 auto;
 	margin-bottom: 20px;
-	margin-left: 50px;
 	}
+
+
+
+
+.login_input_2{
+	float: center;
+	display: block;
+	width: 500px;
+	height : 48px;
+	padding: 0px ;
+	border: solid 1px #cccccc;
+	background-color: #ffffff;
+	margin : 0 auto;
+	margin-bottom: 10px;
+	}
+
+
+
+
+
 
 
 
@@ -49,63 +127,85 @@
 	
 }
 
+.box_1 { 
+	
+	margin-top: -10px;
+	margin-bottom: 20px;
 
-.box_2{  margin-left: 40px; }
+}
+	
+	
+	
+	
 
+.box_2{  display :block;
+         float: left; 
+         margin-top: 3px;
+         margin-left: 70px;
+         font-size: 15px;
+         }
+
+.box3{ 
+	
+	margin-top: 15px;
+}
 
 
 #login_btn {
 	
 	border-radius: 40px;
-	margin-left: 40px;
+	display: block;
+	margin : 0 auto;
+	margin-top : 20px;
 	width: 500px;
 	height : 48px;
-	color:  #cccccc;
+	background-color: gray;
+	border: none;
+	color: white;
 }
 
 .seek_box { 
-	padding-top: 30px;
+	text-align: center;
+	padding-top: 20px;
 	margin-left: 50px;  }
 
 .seek{  
 	    margin : 0 auto;
 	    text-align:center; 
+	    color: black;
        }
 
+
+
+
+/*------------------  하단  -----------------------*/
+
+
 /* footer  */
+
 footer{
 	width:100%;
 	height: 200px;
-	color: white;
-    background-color: black;
+	color:white;
+    background-color: #1c1b1b;
+
+    margin: 100px 0 0 0;
+
 }
-
-
+/* GitLink*/
 .gitLink{
 	font-family: 'YdestreetB';
 	font-size:30px;
 	color: white;
 }
-.gitLink:hover{
-	text-decoration: none;
-}
-.gitLink:link{
-	text-decoration: none;
-}
-
-.gitLink:active{
-	text-decoration: none;
-}
-
-.gitLink:visited{
+.gitLink:hover, .gitLink:link , .gitLink:active , .gitLink:visited{
 	text-decoration: none;
 }
 
 
 
-
+/* footerURL  */
 #footerURL{
-	margin : 0 auto;
 	text-align:center;
-	padding-top: 50px;
+	padding-top: 60px;
 }

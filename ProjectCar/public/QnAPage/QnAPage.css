@@ -46,9 +46,9 @@
 #TitleRight{
 	color: white;
 	float:right;
-	margin: 0 170px 5px 0;	
+	margin: 10px 170px 0 0;	
 	padding: 20px;
-
+	font-size: 30px;
 }
 
 
@@ -64,7 +64,7 @@
 }
 /* 테이블 테두리와 전체 크기 -----------게시판 테이블 시작 */
 #QnAMainTable{
-	margin: 0 auto;
+	margin: 100px auto 1000px auto;
     width:80%;
 	border: solid 2px black;
 	border-collapse: collapse;
@@ -148,7 +148,7 @@ tr td {
 
 #QnASebTable{
 	clear: both;
-	margin: 1000px auto; /* 이거 나중에 제거하고 container 100%로 해주면 된다. */	
+	margin: 100px auto; /* 이거 나중에 제거하고 container 100%로 해주면 된다. */	
     width:80%;
 	border: solid 2px black;
 	border-collapse: collapse;
@@ -224,7 +224,7 @@ footer{
 /* GitLink*/
 .gitLink{
 	font-family: 'YdestreetB';
-	font-size:30px;
+	font-size:20px;
 	color: white;
 }
 .gitLink:hover ,.gitLink:link , .gitLink:active ,.gitLink:visited{
@@ -233,6 +233,6 @@ footer{
 /* footerURL  */
 #footerURL{
 	text-align:center;
-	padding-top: 60px;
+	padding-top: 70px;
 }
 

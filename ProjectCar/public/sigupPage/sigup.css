@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/* Y이드스트릿체 */
+@font-face {
+    font-family: 'YdestreetB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* 전체 div태그  */
+#container{
+    height:100%;
+}
+
+
+
+/*--------- 헤더 -------------*/
+
+/* 전기차에 대해 알려줄게 글씨 */
+#containerTitle{
+	margin: 0 auto;
+	width: 100%;   
+    height: 94px;
+    font-family: "YdestreetB";
+    font-size: 40px;
+    background-color: #1c1b1b;
+    color: white;
+}
+
+#TitleLeft{
+	color: white; 
+	float: left;
+	margin: 0 0 0 10px;
+	padding: 20px 180px ;
+}
+#TitleLeft a:hover , #TitleLeft a:link,  #TitleLeft a:active, #TitleLeft a:visited {
+	text-decoration: none;
+	color: white;
+}
+/* 로그인 | 회원가입 | Q&A페이지 */
+#TitleRight{
+	color: white;
+	float:right;
+	margin: 10px 170px 0 0;	
+	padding: 20px;
+	font-size: 30px;
+
+}
+/* 로그인 | 회원가입 | Q&A페이지 링크 설정 */
+#TitleRight a:hover , #TitleRight a:link,  #TitleRight a:active, #TitleRight a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+/*---------------본 문  전체  --------------------*/
+
+*:focus{  outline: none;  } /* 커서(포커스) 가 있을경우 테두리 제거 */
+
+.main_signup{ /* 전체 레이아웃 */
+	width: 460px;
+	margin: 100px auto;	/* 가운데정렬*/
+	text-align: center;
+}
+
+h1{ 
+	margin-bottom: 20px;
+	text-align: center;
+     }
+h3{ text-align: left; font-size: 14px; }
+
+
+.signup_input{
+	display: block;
+	height : 40px;
+	padding: 0px;
+
+	border: solid 1px #cccccc;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+	
+}
+
+
+.signup_input_2{
+	display: block;
+	height : 40px;
+	padding: 0px;
+	border: solid 1px #cccccc;
+	background-color: #ffffff;
+
+	margin-bottom: 2px;
+    margin-top: -10px;
+
+}
+
+
+
+/* ------------------아이디, 비밀번호 ,재확인 , 이름 , 이메일---------------------*/
+
+
+#signup_id , #signup_pw , #signup_rpw{
+	height: 30px;	/* 높이길이 */
+	border: none; /*테두리 제거 */
+	width: 100%;	/* 가로길이 */
+}
+
+#signup_name , #signup_email {
+	width: 100%; height: 30px; border: none;
+}
+
+
+
+/* ------------------ 휴대 전화 ---------------------*/
+
+#signup_country{ 
+
+ margin-top: 7px;	
+ margin-left: 7px;
+ display: block;
+ float: left;
+ width: 130px;
+ height: 30px;
+ border: #cccccc;	 
+}
+
+#signup_phone{
+	
+	margin-top: 7px;
+	border: none;
+    float: center;
+	height: 30px;
+	width: 180px;
+    height: 30px;
+   
+
+}
+
+
+#num_btn{ /* 인증번호 버튼 */ 
+
+     border: none;
+    display: block;
+	float: right; 
+	width: 100px;
+	background-color: #000000;
+	border: none; color: white;
+	 margin-top:7px; padding:2px;
+	 margin-right: 3px;
+	font-size: 15px;
+    height: 30px;
+}
+
+#num_btn_2{
+	
+	   border: none;
+
+    display: block;
+	float: right; 
+	width: 100px;
+	background-color: #000000;
+	border: none; color: white;
+
+	 margin-top:7px; padding:2px;
+	 margin-right: 3px;
+
+	font-size: 15px;
+    height: 30px;
+}
+
+
+.text_box2 {
+
+    display: block;
+	float:left;
+    border: none;
+	margin-top:6px; width: 180px; height: 30px; 
+
+}
+
+/*----------가입 하기 버튼   ----------*/
+
+.signup_btn_wrap{  /* 가입하기 박스 */
+	margin-top: 30px; margin-bottom : 30px;
+	height: 52px;
+	background-color: #000000;
+	line-height: 50px;
+}
+#signup_btn{  /* 가입하기 버튼 */
+	width: 100%;
+	background-color: #000000;
+	border: none; color:  #ffffff;
+	font-size: 18px;
+}
+
+
+
+
+
+/*-------이용 약관 동의 ------*/
+
+.box, .box_2 {
+  text-align:left;
+  margin-bottom: 6px;
+      }
+      
+   
+   .box {   margin-top : 7px;}  
+      
+
+.btn1{ 
+   
+	border: none; 
+	height: 16px; 
+	 width: 16px;}
+
+.btn2{
+    padding-right: 10px;
+	border: none; 
+	height: 16px; 
+	 width: 16px;
+}
+
+
+
+
+/* ---------------------------footer-------------------------  */
+
+
+
+/* footer  */
+
+
+footer{
+	width:100%;
+	height: 200px;
+	color:white;
+    background-color: #1c1b1b;
+
+    margin: 100px 0 0 0;
+
+}
+/* GitLink*/
+.gitLink{
+	font-family: 'YdestreetB';
+	font-size:30px;
+	color: white;
+}
+.gitLink:hover, .gitLink:link , .gitLink:active , .gitLink:visited{
+	text-decoration: none;
+}
+
+
+
+/* footerURL  */
+#footerURL{
+	text-align:center;
+	padding-top: 60px;
+
+}
+
+
+
