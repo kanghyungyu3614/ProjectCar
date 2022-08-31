@@ -2,6 +2,9 @@
 주제 : 전기자동차 관련 소개 사이트입니다. <br>
 주제선정이유: 환경 이슈와 관련해서 전기자동차를 좋아하는 사람들을 위해 사이트를 만들어보았습니다.<br>
 노션 : https://bit.ly/3ccdzvD <br>
+캔바 : https://bit.ly/3Q15nMr <br>
+figma : https://bit.ly/3Rj6HLC <br>
+
 /* Y이드스트릿체 를 사용해봤습니다. */ <br>
 <table>
  <tr>
@@ -53,8 +56,3 @@
 </tr>
 </table>
  <br>
-
-
-
-
-
