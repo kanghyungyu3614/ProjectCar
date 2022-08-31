@@ -50,6 +50,7 @@
 #TitleRight a:hover , #TitleRight a:link,  #TitleRight a:active, #TitleRight a:visited {
 	text-decoration: none;
 	color: white;
+	margin: 100px 0;
 }
 
 /* 아래사진을 클릭해주세요. PictureClick */
@@ -57,10 +58,12 @@
     font-family: "YdestreetB";
     font-size: 30px;
     text-align:center;
+    margin: 100px 0;
 }
 /* 로고 이미지들 div */
 #logoImg{
 	text-align: center;
+	margin: 100px 0;
 }
 /* 아우디 gif */
 #audiGif{
