@@ -17,65 +17,6 @@
     height:100%;
 }
 
-/*--------- 헤더 -------------*/
-
-/* 자동차에 대해 알려줄게 글씨 */
-#containerTitle{
-	margin: 0 auto;
-	width: 100%;   
-    height: 94px;
-    font-family: "YdestreetB";
-    font-size: 30px;
-    background-color: #1c1b1b;
-    color: white;
-}
-
-#TitleLeft{
-	color: white; 
-	float: left;
-	margin: 0 0 0 10px;
-	padding: 20px 180px ;
-	font-size: 40px;
-}
-#TitleLeft a:hover , #TitleLeft a:link,  #TitleLeft a:active, #TitleLeft a:visited {
-	text-decoration: none;
-	color: white;
-}
-/* 로그인 | 회원가입 | Q&A페이지 */
-#TitleRight{
-	color: white;
-	float:right;
-	margin: 10px 170px 0 0;
-	padding: 20px;
-
-}
-/* 로그인 | 회원가입 | Q&A페이지 링크 설정 */
-#TitleRight a:hover , #TitleRight a:link,  #TitleRight a:active, #TitleRight a:visited {
-	text-decoration: none;
-	color: white;
-}
-
-
-
-
-/* Y이드스트릿체 */
-@font-face {
-    font-family: 'YdestreetB';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-/* 전체 div태그  */
-#container{
-    height:100%;
-}
-
 
 
 /*--------- 헤더 -------------*/
@@ -130,6 +71,7 @@
 }
 
 h1{ 
+	margin-bottom: 20px;
 	text-align: center;
      }
 h3{ text-align: left; font-size: 14px; }
@@ -141,7 +83,7 @@ h3{ text-align: left; font-size: 14px; }
 	padding: 0px;
 	border: solid 1px #cccccc;
 	background-color: #ffffff;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	
 }
 
@@ -152,8 +94,9 @@ h3{ text-align: left; font-size: 14px; }
 	padding: 0px;
 	border: solid 1px #cccccc;
 	background-color: #ffffff;
-	margin-top: 6px;
 	margin-bottom: 2px;
+    margin-top: -10px;
+
 }
 
 
@@ -243,7 +186,7 @@ h3{ text-align: left; font-size: 14px; }
 /*----------가입 하기 버튼   ----------*/
 
 .signup_btn_wrap{  /* 가입하기 박스 */
-	margin-top: 20px; margin-bottom : 30px;
+	margin-top: 30px; margin-bottom : 30px;
 	height: 52px;
 	background-color: #000000;
 	line-height: 50px;
@@ -262,10 +205,13 @@ h3{ text-align: left; font-size: 14px; }
 /*-------이용 약관 동의 ------*/
 
 .box, .box_2 {
-
   text-align:left;
   margin-bottom: 6px;
       }
+      
+   
+   .box {   margin-top : 7px;}  
+      
 
 .btn1{ 
    
@@ -285,11 +231,9 @@ h3{ text-align: left; font-size: 14px; }
 
 /* ---------------------------footer-------------------------  */
 
-<<<<<<< HEAD
-/* footer  */
-=======
 
->>>>>>> refs/remotes/origin/project_car_sub2
+/* footer  */
+
 footer{
 	width:100%;
 	height: 200px;
@@ -318,8 +262,3 @@ footer{
 }
 
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> refs/remotes/origin/project_car_sub2

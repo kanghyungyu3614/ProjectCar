@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* Y이드스트릿체 */
 @font-face {
     font-family: 'YdestreetB';
@@ -20,9 +19,7 @@
 
 
 
-*:focus{  outline: none;  } 
-
-/*------------------   헤더   -----------------------*/
+/*--------- 헤더 -------------*/
 
 /* 전기차에 대해 알려줄게 글씨 */
 #containerTitle{
@@ -60,6 +57,7 @@
 	color: white;
 }
 
+
 /*------------------   본문   -----------------------*/
 
 
@@ -79,11 +77,9 @@
 	
 	
 .picto {
-	
 display :block;
 margin : 0 auto;
-height: 200px;  
- width: 200px;
+width: 200px;
 
  }
 	
@@ -102,6 +98,26 @@ height: 200px;
 
 
 
+
+.login_input_2{
+	float: center;
+	display: block;
+	width: 500px;
+	height : 48px;
+	padding: 0px ;
+	border: solid 1px #cccccc;
+	background-color: #ffffff;
+	margin : 0 auto;
+	margin-bottom: 10px;
+	}
+
+
+
+
+
+
+
+
 #login_id, #login_pw{
     margin : 10px 5px 5px 10px;
 	width: 400px;	/* 가로길이 */
@@ -111,16 +127,28 @@ height: 200px;
 	
 }
 
-.box_1 { margin-bottom: 20px;
+.box_1 { 
 	
+	margin-top: -10px;
+	margin-bottom: 20px;
+
 }
+	
+	
+	
+	
 
 .box_2{  display :block;
          float: left; 
+         margin-top: 3px;
          margin-left: 70px;
-      
+         font-size: 15px;
          }
 
+.box3{ 
+	
+	margin-top: 15px;
+}
 
 
 #login_btn {
@@ -128,6 +156,7 @@ height: 200px;
 	border-radius: 40px;
 	display: block;
 	margin : 0 auto;
+	margin-top : 20px;
 	width: 500px;
 	height : 48px;
 	background-color: gray;
@@ -147,18 +176,21 @@ height: 200px;
        }
 
 
-*{border: solid 1px blue;}
 
 
 /*------------------  하단  -----------------------*/
 
 
 /* footer  */
+
 footer{
 	width:100%;
 	height: 200px;
 	color:white;
     background-color: #1c1b1b;
+
+    margin: 100px 0 0 0;
+
 }
 /* GitLink*/
 .gitLink{
@@ -171,15 +203,9 @@ footer{
 }
 
 
+
 /* footerURL  */
 #footerURL{
 	text-align:center;
 	padding-top: 60px;
-<<<<<<< HEAD
 }
-
-=======
-
-}
->>>>>>> refs/remotes/origin/project_car_sub2
-
